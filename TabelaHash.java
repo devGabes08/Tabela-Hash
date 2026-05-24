@@ -47,4 +47,5 @@ public abstract class TabelaHash {
     public int getTotalElementos() { return totalElementos; }
     public int getCapacidade() { return capacidade; }
     public String[] getTabela() { return tabela; }
+
 }
