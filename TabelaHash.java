@@ -20,7 +20,7 @@ public abstract class TabelaHash {
 
         while (tabela[pos] != null && tentativas < capacidade) {
             colisoes++;
-            pos = (pos + 1) % capacidade; // sondagem linear
+            pos = (pos + 1) % capacidade;
             tentativas++;
         }
 
@@ -43,9 +43,17 @@ public abstract class TabelaHash {
         return -1;
     }
 
-    public int getColisoes() { return colisoes; }
-    public int getTotalElementos() { return totalElementos; }
-    public int getCapacidade() { return capacidade; }
-    public String[] getTabela() { return tabela; }
+    public int getColisoes() {
+        return colisoes;
+    }
+    public int getTotalElementos() {
+        return totalElementos;
+    }
+    public int getCapacidade() {
+        return capacidade;
+    }
+    public String[] getTabela() {
+        return tabela;
+    }
 
 }
