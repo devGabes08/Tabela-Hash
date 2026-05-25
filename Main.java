@@ -1,6 +1,6 @@
 public class Main {
 
-    public static final int CAPACIDADE = 1000;
+    public static final int CAPACIDADE = 16;
     public static final String ARQUIVO = "nomes_20000_reais_distintos.csv";
     public static final int TOTAL_BUSCAS = 100;
 
